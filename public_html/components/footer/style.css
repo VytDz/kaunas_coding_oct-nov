@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    border: none;
+    border-radius: 4px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(94, 115, 153);
+}
+
+footer>p{
+    width: 20%;
+    margin: 15px 0 0 15px;
+    font-family: "Montserrat", sans-serif;
+}
+
+footer>a{
+    text-align: center;
+    width: 55%;
+    margin: 15px 0 0 0;
+    font-family: "Montserrat", sans-serif;
+}

@@ -1,0 +1,35 @@
+@import "../pages/home_page/style.css";
+@import "../pages/article_page/style.css";
+@import "../pages/comment_page/index.php";
+@import "../pages/sign_in_page/style.css";
+@import "../pages/sign_up_page/style.css";
+@import "../pages/category_page/style.css";
+@import "../pages/contact_us/style.css";
+@import "../pages/admin_page/style.css";
+@import "../components/article_full/style.css";
+@import "../components/article_thumb/style.css";
+@import "../components/categories_tab/style.css";
+@import "../components/comment/style.css";
+@import "../components/comment_section/style.css";
+@import "../components/header/style.css";
+@import "../components/twitter_feed/style.css";
+@import "../components/twitter_post/style.css";
+@import "../components/footer/style.css";
+
+
+body{
+    min-height: 700px;
+    background: url("../img/bartosz-kwitkowski-509565-unsplash2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(240, 240, 240);
+    text-shadow: 2px 2px 4px rgb(178, 207, 230);
+}

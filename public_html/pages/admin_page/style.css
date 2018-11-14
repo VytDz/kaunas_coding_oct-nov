@@ -1,0 +1,32 @@
+.article-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.article-wrapper .article-form {
+  display: flex;
+  flex-flow: column;
+  width: 70%;
+}
+.article-wrapper .article-form h1 {
+  text-align: center;
+}
+.article-wrapper .article-form button {
+  width: 25%;
+  margin-left: 35%;
+  margin-top: 15px;
+}
+.article-wrapper .article-form__name {
+  text-align: center;
+}
+.article-wrapper .article-form__input {
+  margin-left: 25%;
+  width: 50%;
+}
+.article-wrapper .article-form__input-lg {
+  margin-left: 15%;
+  width: 70%;
+  height: 200px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,16 @@
+.commentSection {
+  width: inherit;
+  max-height: 100%;
+  background-color: rgb(94, 115, 153);
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  border-radius: 4px;
+  padding-bottom: 15px;
+}
+.commentSection h2 {
+  margin: 25px 0px 0px 25px;
+  padding: 25px 0px 25px 0px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,199 @@
+.header {
+  border: none;
+  border-radius: 4px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(94, 115, 153);
+}
+
+.header__searchBar {
+  width: 265px;
+  height: 25px;
+  margin-top: 13px;
+  margin-left: 20px;
+  border-radius: 2px;
+  border: none;
+  background-color: #FEFEFE;
+}
+.header__searchBar input {
+  width: 95%;
+  outline: none;
+  border: none;
+  padding: 0;
+  margin: 6px 0 0 4px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.header__logins ul {
+  display: flex;
+}
+.header__logins ul li {
+  margin-left: 15px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 14px;
+  list-style-type: none;
+}
+
+.header__logoHome {
+  width: 130px;
+  height: 40px;
+  margin: 5px auto 0px auto;
+  border-radius: 40px;
+  color: black;
+  background-color: #EDEDED;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  animation: grow 3s ease-in-out infinite alternate;
+}
+
+@keyframes grow {
+  from {
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  to {
+    box-shadow: 1px 1px 30px 15px #fd0000b4;
+  }
+}
+
+.header__logoHome:hover {
+  animation: none;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 5px rgba(178, 207, 230, 0.4);
+}
+.header__logoHome p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin: 8px auto 0px auto;
+}
+
+.fas{display: inline;}
+
+.header__logoHome p:hover{
+ color: black;
+}
+
+.header__socMedia {
+  display: flex;
+  float: right;
+  clear: both;
+  margin: 5px 10px 0px 10px;
+}
+.header__socMedia .header__socMedia--twitter {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: #EDEDED;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header__socMedia .header__socMedia--twitter:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 5px rgba(178, 207, 230, 0.4);
+}
+.header__socMedia .header__socMedia--twitter i {
+  margin-top: 3px;
+}
+.header__socMedia .header__socMedia--facebook {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+  border-radius: 25px;
+  background-color: #EDEDED;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header__socMedia .header__socMedia--facebook:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 5px rgba(178, 207, 230, 0.4);
+}
+.header__socMedia .header__socMedia--facebook i {
+  margin-top: 3px;
+}
+
+i {
+  font-size: 16px;
+  width: 35;
+  height: 35;
+  color: black;
+}
+
+@media only screen and (max-width: 1024px) {
+  .header__logoHome {
+    width: 100px;
+    height: 40px;
+    margin: 5px auto 0px auto;
+    border-radius: 40px;
+    color: black;
+    background-color: #EDEDED;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .header__logoHome p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin: 8px 0px 0px 0px;
+  }
+
+  .header__logins ul {
+    display: flex;
+  }
+  .header__logins ul li {
+    margin-left: 10px;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-size: 12px;
+    list-style-type: none;
+  }
+
+  .header__searchBar {
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .header__logoHome {
+    width: 70px;
+    height: 40px;
+    margin: 5px auto 0px auto;
+    border-radius: 40px;
+    color: black;
+    background-color: #EDEDED;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .header__logoHome p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin: 8px 0px 0px 0px;
+  }
+
+  .header__socMedia--facebook {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    border-radius: 25px;
+    background-color: #EDEDED;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .header__socMedia--facebook i {
+    margin-top: 3px;
+  }
+
+  .header__logins ul {
+    display: none;
+  }
+
+  .header__searchBar {
+    width: 100px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

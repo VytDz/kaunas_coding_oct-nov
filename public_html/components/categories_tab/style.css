@@ -1,0 +1,66 @@
+.catTab {
+  width: 100%;
+  height: 50px;
+  border-radius: 4px;
+  background-color: rgb(94, 115, 153);
+}
+
+.catTab__ul--styles {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 0;
+  margin: 25px 0px 0px 0px;
+}
+.catTab__ul--styles li {
+  margin-top: 7px;
+}
+.catTab__ul--styles li a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+}
+.catTab__ul--styles li a:hover {
+  cursor: pointer;
+  color: rgb(178, 207, 230);
+}
+
+@media only screen and (max-width: 1024px) {
+  .catTab__ul--styles li {
+    margin-top: 14px;
+  }
+  .catTab__ul--styles li a {
+    font-size: 18px;
+    color: black;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .catTab__ul--styles li {
+    margin-top: 18px;
+  }
+  .catTab__ul--styles li a {
+    font-size: 14px;
+    color: black;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .catTab {
+    height: 30px;
+    border-radius: 0px;
+  }
+
+  .catTab__ul--styles {
+    display: flex;
+  }
+  .catTab__ul--styles li {
+    margin-top: 7px;
+  }
+  .catTab__ul--styles li a {
+    font-size: 12px;
+    color: black;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

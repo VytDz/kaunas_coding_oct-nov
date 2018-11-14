@@ -1,0 +1,11 @@
+.thumb-block{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    height: 100%;
+}
+
+.thumb-block div{
+    width: 48%;
+    margin: 0 1% 0 1%;
+}

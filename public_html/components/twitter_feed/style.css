@@ -1,0 +1,31 @@
+.twitterFeedWindow {
+  border-radius: 4px;
+  width: 100%;
+  max-height: 1000px;
+  padding-bottom: 25px;
+  background-color: rgb(94, 115, 153);
+}
+.twitterFeedWindow h2 {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 8px 0px 0px 0px;
+}
+.twitterFeedWindow div {
+  border-radius: 4px;
+  background-color: white;
+  max-height: 950px;
+  max-width: 390px;
+  margin: 25px 5px 0px 5px;
+}
+
+@media only screen and (max-width: 640px) {
+  .twitterFeedWindow {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,66 @@
+.wrapperSignUp {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapperSignUp__header {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapperSignUp__elements {
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+
+.wrapperSignUp__elements__main {
+  width: 500px;
+  height: 300px;
+  background-color: rgb(94, 115, 153);
+  border-radius: 20px;
+  padding: 0;
+  margin: 25px 0px 0px 0px;
+}
+.wrapperSignUp__elements__main form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.wrapperSignUp__elements__main form h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18;
+  font-weight: 100;
+}
+.wrapperSignUp__elements__main form input {
+  width: 340px;
+  margin: 0px 10px 0px 10px;
+  padding-left: 10px;
+  border-radius: 25px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.wrapperSignUp__elements__main form button {
+  width: 155px;
+  height: 35px;
+  margin-top: 25px;
+  border-radius: 25px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  border-style: solid;
+  border-width: 3px;
+  border-color: #ffffff;
+  transition: 0.3s;
+  -webkit-appearance: none;
+}
+.wrapperSignUp__elements__main form button:hover {
+  cursor: pointer;
+  width: 165px;
+  background-color: greenyellow;
+  border-width: 4px;
+  transition: 0.3s;
+}
+
+
+/*# sourceMappingURL=style.css.map */

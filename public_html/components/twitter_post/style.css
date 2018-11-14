@@ -1,0 +1,13 @@
+.twitterPost {
+  width: 90%;
+  max-height: 100%;
+  background-color: #F2F2F2;
+  margin: 0px 20px 25px 20px;
+  border-radius: 10px;
+}
+
+.twitter-timeline{
+  max-height: 1100px;
+}
+
+/*# sourceMappingURL=style.css.map */
